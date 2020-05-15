@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 100vh;
+    background: url("https://www.mygraphichunt.com/wp-content/uploads/2015/08/wpid-gradient-blue-geometric-background_1023-102-1170x1170.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: inherit;
+ 
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+}
+nav .menu{
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width:25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav .menu a:first-child{
+    color: bisque;
+    
+}
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+section{
+    
+}
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    text-shadow: 2px 1px 5px black;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-family: cursive;
+    text-shadow: 1px 2px 1px black;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: mediumvioletred;
+}
+@keyframes changetext{
+25%{content:"Guide";}
+    50%{content:"support";}
+    75%{content:"Inspire";}
+    100%{content:"Teach";}
+}

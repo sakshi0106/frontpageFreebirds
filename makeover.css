@@ -1,0 +1,108 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:brown;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.pimg1{
+  background-image: url("https://www.nysenate.gov/sites/default/files/press-release/main-image/classroom.jpg");
+  min-height:100%;
+}
+.pimg2{
+    background-image: url("https://previews.123rf.com/images/bakhtiarzein/bakhtiarzein1510/bakhtiarzein151000049/46575608-securing-access-from-authorize-software-authentication-password-login-form-system-security-vector.jpg");
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url("bgpicture.jpg");
+    min-height: 300px;
+}
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #f4f4f4;
+    color:#666
+}
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+    text-align: left;
+}
+.login{
+    position: absolute;
+    top: calc(50%-75px);
+    left:calc (50%-50px);
+    height:150px;
+    width:350px;
+    padding:10px
+}
+.login input[type=text]{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 5px;
+    color: rgb(0,0,0);
+    padding: 4px;
+}
+.login input [type=button]{
+    width: 260px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid black;
+    color: rgb(0,0,0);
+    padding: 6 px;
+}
+.login input [ type=button]:hover{
+    opacity:0.8;
+}
+.box{
+    text-align: center;
+    background:transparent;
+    width:200px;
+    height:200px;
+}
+.box2{
+    text-align: center;
+    background:transparent;
+    width:200px;
+    height:200px;
+}
+.button{
+    background: #00b894;
+    color: white;
+    text-decoration: none
+}
+
